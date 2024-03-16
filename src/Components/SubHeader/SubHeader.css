@@ -1,0 +1,60 @@
+/* 
+---------------------------------------------
+Header Style
+--------------------------------------------- 
+*/
+
+.sub-header {
+    background-color: #fff;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .sub-header ul li {
+    display: inline-block;
+  }
+  
+  .sub-header ul.social-links {
+    text-align: right;
+  }
+  
+  .sub-header ul.social-links li {
+    margin-left: 8px;
+  }
+  
+  .sub-header ul.social-links li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s;
+  }
+  
+  .sub-header ul.social-links li a:hover {
+    background-color: #f35525;
+  }
+  
+  .sub-header ul.info li {
+    font-size: 14px;
+    color: #7a7a7a;
+    border-right: 1px solid #eee;
+    margin-right: 25px;
+    padding-right: 25px;
+  }
+  
+  .sub-header ul.info li:last-child {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: none;
+  }
+  
+  .sub-header ul.info li i {
+    font-size: 20px;
+    color: #f35525;
+    margin-right: 8px;
+  }

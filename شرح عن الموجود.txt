@@ -1,0 +1,26 @@
+node_module  المكاتب و البكجات لا نعمل عليه
+public المجلد الذي يصل له البراوزر 
+src   مجلد خاص فيني فيه جافا سكربت و سي اس اس
+اول ملف يفتح هو index.js وهويستدعي باقي المشرع
+.gitignore نحدد بداخله ما نريد رفعه على ال غت و ما لا نريد بوضع /قبله
+package.json اعداات المشروع
+package-lock.json الاعدادات بالتفصيل الممل
+README.md  شرح عن المشروع
+ الكتابة ضمن ملف index.js : jsx (js+htm)
+
+render جمع المشروع
+React.StrictMode مسؤول عن الاختبار قبل التنفيذ 
+const root = ReactDOM.createRoot(document.getElementById('root')); انشاء روت تم استداء المكتبة روت دوك و انشاء روت
+babel يترجم الكتابة في ملف index.js الى jsx ,و ال jsx تترج الى html
+
+ضمن ال app.js ننشا تابع يعيد ابن واحد بداخله ما نريد
+
+ctrl +click ننتقل الى ال component
+rafce  اختصار عمل كومبوننت بطريقة ارو فنكشن 
+rfc  ختصار عمل كومبوننت بطريقة  فنكشن عادي 
+
+ارسال بروبس قيم <Card title= "dvv" job="back" visible={false}/>
+ارسال بروبس محتوى كامل <Card> محتوى html </Card>
+
+out retun is javascript 
+inside return is jsx
