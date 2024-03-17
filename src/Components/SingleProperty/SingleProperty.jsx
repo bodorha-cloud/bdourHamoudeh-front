@@ -1,6 +1,8 @@
 import React from 'react'
 import './SingleProperty.css'
 import InfoTable from '../InfoTable/InfoTable'
+import SingleProper from '../../../assets/images/single-property.jpg'
+
 const SingleProperty = () => {
   return (
     <div className="single-property section">
@@ -8,7 +10,7 @@ const SingleProperty = () => {
             <div className="row">
               <div className="col-lg-8">
                 <div className="main-image">
-                  <img src="assets/images/single-property.jpg" alt="" />
+                  <img src={SingleProper} alt="" />
                 </div>
                 <div className="main-content">
                   <span className="category">Apparment</span>

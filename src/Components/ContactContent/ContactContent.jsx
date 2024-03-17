@@ -1,6 +1,8 @@
 import React from 'react'
 import './ContactContent.css'
 import ContactForm from '../ContactForm/ContactForm'
+import phoneIcon from '../../../assets/images/phone-icon.png'
+import emailIcon from '../../../assets/images/email-icon.png'
 const ContactContent = () => {
   return (
     <div className="contact-content">
@@ -13,13 +15,13 @@ const ContactContent = () => {
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="item phone">
-                        <img src="assets/images/phone-icon.png" alt="" style={{maxWidth: '52px'}} />
+                        <img src={phoneIcon} alt="" style={{maxWidth: '52px'}} />
                         <h6>010-020-0340<br /><span>Phone Number</span></h6>
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="item email">
-                        <img src="assets/images/email-icon.png" alt="" style={{maxWidth: '52px'}} />
+                        <img src={emailIcon} alt="" style={{maxWidth: '52px'}} />
                         <h6>info@villa.co<br /><span>Business Email</span></h6>
                       </div>
                     </div>

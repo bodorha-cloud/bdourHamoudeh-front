@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './BestDeal.css';
-
+import deal1 from '../../../assets/images/deal-01.jpg'
+import deal2 from '../../../assets/images/deal-02.jpg'
+import deal3 from '../../../assets/images/deal-03.jpg'
 const BestDeal = () => {
   const [activeTab, setActiveTab] = useState('appartment');
 
@@ -69,7 +71,7 @@ const BestDeal = () => {
                               </div>
                             </div>
                             <div className="col-lg-6">
-                              <img src="assets/images/deal-01.jpg" alt="" />
+                              <img src={deal1} alt="" />
                             </div>
                             <div className="col-lg-3">
                               <h4>Extra Info About Property</h4>
@@ -100,7 +102,7 @@ const BestDeal = () => {
                               </div>
                             </div>
                             <div className="col-lg-6">
-                              <img src="assets/images/deal-02.jpg" alt="" />
+                              <img src={deal2} alt="" />
                             </div>
                             <div className="col-lg-3">
                               <h4>Detail Info About Villa</h4>
@@ -130,7 +132,7 @@ const BestDeal = () => {
                               </div>
                             </div>
                             <div className="col-lg-6">
-                              <img src="assets/images/deal-03.jpg" alt="" />
+                              <img src={deal3} alt="" />
                             </div>
                             <div className="col-lg-3">
                               <h4>Extra Info About Penthouse</h4>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './VideoContent.css'
+import video1 from '../../../assets/images/video-frame.jpg'
 const VideoContent = () => {
   return (
     <div className="video-content">
@@ -7,7 +8,7 @@ const VideoContent = () => {
               <div className="row">
                 <div className="col-lg-10 offset-lg-1">
                   <div className="video-frame">
-                    <img src="assets/images/video-frame.jpg" alt="" />
+                    <img src={video1} alt="" />
                     <a href="https://youtube.com" target="_blank"><i className="fa fa-play" /></a>
                   </div>
                 </div>

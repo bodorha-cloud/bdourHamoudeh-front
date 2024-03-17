@@ -1,6 +1,8 @@
 import React from 'react'
 import './Featured.css'
 import InfoTable from '../InfoTable/InfoTable'
+import featured from '../../../assets/images/featured.jpg'
+import featuredIcon from '../../../assets/images/featured-icon.png'
 const Featured = () => {
   return (
     <div className="featured section">
@@ -8,8 +10,8 @@ const Featured = () => {
               <div className="row">
                 <div className="col-lg-4">
                   <div className="left-image">
-                    <img src="assets/images/featured.jpg" alt="" />
-                    <a href="property-details.html"><img src="assets/images/featured-icon.png" alt="" style={{maxWidth: '60px', padding: '0px'}} /></a>
+                    <img src={featured} alt="" />
+                    <a href="property-details.html"><img src={featuredIcon} alt="" style={{maxWidth: '60px', padding: '0px'}} /></a>
                   </div>
                 </div>
                 <div className="col-lg-5">
